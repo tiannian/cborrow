@@ -1,0 +1,8 @@
+PROJECT(cborrow)
+
+CMAKE_MINIMUM_REQUIRED(VERSION 3.14)
+
+INCLUDE_DIRECTORIES(src)
+
+ADD_EXECUTABLE(test_borrow test/test_borrow.cpp)
+
